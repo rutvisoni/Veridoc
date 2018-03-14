@@ -1,0 +1,42 @@
+<suite  name="Veridoc Suite">
+         
+   
+  <test name="suite">
+	 <classes>
+	     
+	   	
+	    
+	     <class name="mypackage.masterclass"></class>
+	    
+	      <class name="mypackage.register"></class>
+	     
+	    
+	   		<class name="mypackage.login"></class>
+	   		<class name="mypackage.documents"/> 
+	   		<class name="mypackage.soa"></class>
+	   		<class name="mypackage.gia"></class>	
+	   		<class name="mypackage.resume"></class>
+	   		<class name="mypackage.drivinglicence"></class>
+	   		<class name="mypackage.passport"></class>
+	   		<class name="mypackage.qut"></class>
+	   		
+	   		
+	   		 	
+	
+	   		
+	 <!--  
+	 		
+	   		<class name="mypackage.resume"></class>
+	   	
+	   		
+	   		
+	   		<class name="mypackage.passport"></class>
+	   		<class name="mypackage.qut"></class>
+	   		<class name="mypackage.passport"></class>
+	   		-->
+	    	      	
+	 </classes>
+   </test>
+   
+  
+</suite>

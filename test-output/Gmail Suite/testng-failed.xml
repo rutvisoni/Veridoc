@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Gmail Suite]" parallel="tests">
+  <test name="suite(failed)" parallel="tests">
+    <classes>
+      <class name="mypackage.passport">
+        <methods>
+          <include name="selecttemplate"/>
+          <include name="login"/>
+          <include name="validdata"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="blankdata"/>
+        </methods>
+      </class> <!-- mypackage.passport -->
+      <class name="mypackage.soa">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="blankdata"/>
+          <include name="validdata"/>
+        </methods>
+      </class> <!-- mypackage.soa -->
+      <class name="mypackage.drivinglicence">
+        <methods>
+          <include name="validdata"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="blankdata"/>
+        </methods>
+      </class> <!-- mypackage.drivinglicence -->
+      <class name="mypackage.qut">
+        <methods>
+          <include name="selecttemplate"/>
+          <include name="setup"/>
+          <include name="validdata"/>
+          <include name="close"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- mypackage.qut -->
+      <class name="mypackage.documents">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="selecttemplate"/>
+        </methods>
+      </class> <!-- mypackage.documents -->
+      <class name="mypackage.gia">
+        <methods>
+          <include name="selecttemplate"/>
+          <include name="validdata"/>
+          <include name="login"/>
+          <include name="close"/>
+          <include name="blankdata"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- mypackage.gia -->
+      <class name="mypackage.login">
+        <methods>
+          <include name="emptydata" invocation-numbers="0"/>
+          <include name="emptypassword" invocation-numbers="0"/>
+          <include name="invaliddata" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="emptyemail" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- mypackage.login -->
+      <class name="mypackage.resume">
+        <methods>
+          <include name="blankdata"/>
+          <include name="validdata"/>
+          <include name="selecttemplate"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- mypackage.resume -->
+      <class name="mypackage.caseflow">
+        <methods>
+          <include name="validdata"/>
+          <include name="selecttemplate"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- mypackage.caseflow -->
+    </classes>
+  </test> <!-- suite(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->
